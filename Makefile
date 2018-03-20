@@ -1,6 +1,6 @@
 
-all :
+all:
 	gcc -o chat_room chat_room.c
 
 clean:
-	rm chat_room
+	find . -type f ! -name 'chat_room.c' -delete
