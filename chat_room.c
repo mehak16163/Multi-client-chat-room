@@ -57,11 +57,15 @@ int main(){
 		fclose(fp);
 		return 0;
 	}
-	else
+	else if (strcmp(option,"2")==0)
 	{
 		printf("Please enter your username: \n");
 		scanf("%s", id);
 	}
+    else{
+        printf("Please enter correct option\n");
+        return 0;     
+    }  
 	while(1){
 		printf("Select Option:\n1. Read\n2. Write\n3. Exit\n");
 		scanf("%s", user_name);
