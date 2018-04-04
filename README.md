@@ -9,4 +9,4 @@ To download the chat server:
 1. Clone the repository
 2. Go to terminal and cd to the directory with the files. 
 3. run `make`
-4. run `./chat_server
+4. run `./chat_room`
